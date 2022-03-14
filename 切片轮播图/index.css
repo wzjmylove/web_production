@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: 0.2s linear;
+}
+
+div {
+    float: left;
+}
+
+.shell {
+    height: 600px;
+    margin: 40px 300px;
+}
+
+.shell_left {
+    height: 100%;
+    width: 427.2px;
+    overflow: hidden;
+}
+
+.shell_left ul {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 0;
+}
+
+.shell_left img {
+    height: 600px;
+}
+
+.shell_right {
+    margin-left: 10px;
+}
+
+.shell_right ul {
+    height: 600px;
+    overflow: hidden;
+}
+
+.shell_right li {
+    position: relative;
+    left: 0;
+    margin-top: 1.5px;
+}
+
+.shell_right li img {
+    height: 115px;
+}
