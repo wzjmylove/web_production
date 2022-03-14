@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <button value="提交" class="btn">提交</button>
+    <script>
+        var btn = document.querySelector('button');
+        btn.addEventListener('click', function() {
+            btn.value = '属性value改变';
+            btn.classList.add('abc')
+        })
+    </script>
+</body>
+
+</html>
